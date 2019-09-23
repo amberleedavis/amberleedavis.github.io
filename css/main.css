@@ -7,13 +7,13 @@
 body { 
     font-size: 15px; 
     line-height: 32px;
-    font-family: sans-serif; /* Ubuntu, sans-serif */;
+    font-family: 'Questrial', sans-serif;
     color: #000; /* #xxxxxx */;
 }
 
 h1 {
     font-size: 2.4rem /* x.xrem  (rem is a unit of measure) */;
-    color: #fff; /* #xxxxxx */;
+    color: #ffffff; /* #xxxxxx */;
 }
 
 h2 {
@@ -29,8 +29,8 @@ header, main, footer {
 }
 header, footer, footer a {
     text-align: center;
-    background-color: darkblue; /* */;
-    color: whitesmoke;
+    background-color: #d39595; /* */;
+    color: #ffffff;
     /* Comment */
 }
 
