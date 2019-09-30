@@ -1,15 +1,29 @@
+body{
+    background-color:#b5e8f5;
+}
+
+#title{
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px #4696aa;
+}
+
+h1, h2, #title{
+    font-family: 'Lora', serif;
+}
 section {
     float: left;
     width: 27%;
     margin: 1.6%;
     color: #ffffff;
-    background-color: #7ccbdf88;
+    background-color: #4696aa;
     border-radius: 20px;
     padding: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 img {
-    border: solid rgba(163, 58, 84, 0.795) 10px;
+    border: solid #641c2e 10px;
 }
 
 .center {
@@ -24,18 +38,19 @@ h1, h2, p {
 }
 
 .button {
-    background-color: #3d74e9;
+    background-color: #c4bbb4;
     border: none;
     color: white;
     padding: 16px 32px;
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
-    opacity: 0.6;
+    opacity: 0.88;
     transition: 0.3s;
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
   }
 
   .button:hover {
