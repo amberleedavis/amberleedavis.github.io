@@ -11,3 +11,41 @@ section {
 img {
     border: solid rgba(163, 58, 84, 0.795) 10px;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+h1, h2, p {
+    text-align: center;
+}
+
+.button {
+    background-color: #3d74e9;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .button:hover {
+      opacity: 1
+    }
+
+
+.more{               
+    width: 100%;
+    text-align: center;        
+    margin: 10px;
+    padding: 0px;
+ }
