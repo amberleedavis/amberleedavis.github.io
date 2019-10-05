@@ -11,13 +11,18 @@ li a{
     
 }
 
+
 section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 article {
-    border: 3px solid pink;
+    border: 3px solid #a6dbd7;
+    background-color: #a6dbd7;
+    text-align: center;
+    padding: 10px;
+    margin: 40px;
 }
 
 ul {
@@ -33,4 +38,7 @@ ul {
     width: 500px;
 }
 
+h1{
+    text-align: center;
+}
 /* id selectors */
