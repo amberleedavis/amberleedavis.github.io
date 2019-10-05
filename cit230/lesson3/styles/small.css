@@ -25,6 +25,7 @@ section{
 
 article {
     border: 3px solid #a6dbd7;
+    border-radius: 10px;
     background-color: #a6dbd7;
     text-align: center;
     padding: 10px;
