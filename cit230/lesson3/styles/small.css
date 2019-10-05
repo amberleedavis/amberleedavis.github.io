@@ -1,4 +1,11 @@
 /* html selectors */
+img{
+    width: 500px;
+}
+h1{
+    text-align: center;
+}
+
 li {
     float: left;
     margin: 10px 5px;
@@ -10,7 +17,6 @@ li a{
     color: white;
     
 }
-
 
 section{
     display: grid;
@@ -34,11 +40,9 @@ ul {
 }
 
 /* class selctors */
-.colorscheme {
-    width: 500px;
-}
 
-h1{
-    text-align: center;
-}
 /* id selectors */
+
+#logo {
+    width: 200px;
+}
