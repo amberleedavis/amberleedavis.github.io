@@ -12,11 +12,12 @@
 </head>
 <body>
     <header>
+        <img src="images/weathericon.png" alt="icon of weather">
         <h1>"Photographer's Weather Hub"</h1>
     </header>
     <nav>
         <ul class="navigation">
-            <li><a href="#" onclick="">&#9776;Menu</a></li>
+            <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
             <li><a href="#">Home</a></li>
             <li><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
@@ -27,9 +28,13 @@
     </nav>
     <main>
         <h2>Preston</h2>
+        <section>Hero w/ Weather Summary</section>
+        <section>5 Day Forecast</section>
+        <section>Article</section>
+        <section>Contact Information</section>
     </main>
     <footer>
-        &copy; <span id="currentYear"></span>
+        &copy; <span id="currentDate"></span>
     </footer>
   <script src="js/main.js"></script>  
 </body>
