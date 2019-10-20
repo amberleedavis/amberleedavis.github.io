@@ -5,9 +5,6 @@
 }
 
 /* html selectors */
-header{
-    text-align: left;
-}
 
 li {
     float: left;
@@ -21,10 +18,12 @@ li a{
     
 }
 
+h2{
+    font-size: 3em;
 
+}
 header{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
+  text-align: center;
 }
 
 article {
@@ -44,14 +43,9 @@ ul {
     background-color: #ff6b6b;
 }
 
-img {
-    margin-left: 325px;
-    width: 100px;
-}
-
 section {
-    border: 3px solid salmon;
-    padding: 3px;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
     margin: 4px;
 }
 
@@ -62,7 +56,16 @@ border: 2px solid black;
 
 
 /* class selectors */
+.hero {
+    width: 100%;
+    height: 250px;
 
+}
+
+
+.logo {
+    align-content: center;
+}
 .navigation li:first-child {
     display: block;
 }
@@ -73,6 +76,10 @@ border: 2px solid black;
 
 .responsive li {
     display: block;
+}
+
+.tornado {
+    width: 300px;
 }
 
 /* id selectors */
