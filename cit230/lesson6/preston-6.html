@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Yeseva+One&display=swap" rel="stylesheet">
-    
-
 </head>
+
 <body>
     <header>
+        
     <img class="logo" src="images/Snapshot Weather Logo.png" alt="logo for snapshot weather">
     </header>
     <nav>
@@ -28,6 +28,24 @@
             <li class="button"><a href="#">Gallery</a></li>
         </ul>
     </nav>
+    
+    <section id="weatherSummary">
+            <div>
+                 <span>Current Temp: </span>
+                 <span id="currentTemp"></span>
+            </div>
+ 
+             <div>
+                 <span> Wind Speed: </span>
+                 <span id="windSpeed"></span>
+             </div>
+ 
+             <div>
+                 <span>Windchill: </span>
+                 <span id=windChill></span>
+             </div>
+         </section>
+
     <main>
         <h2>Preston</h2>
 
@@ -78,5 +96,6 @@
        
     </footer>
   <script src="js/main.js"></script>  
+  <script src="js/windChill.js"></script>
 </body>
 </html>

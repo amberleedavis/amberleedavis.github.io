@@ -43,7 +43,7 @@ ul {
     background-color: #ff6b6b;
 }
 
-section {
+section, footer {
     font-family: 'Raleway', sans-serif;
     padding: 5px;
     margin: 4px;
@@ -90,4 +90,14 @@ border: 2px solid black;
 
 #map {
     display: none;
+}
+
+#weatherSummary {
+    color: white;
+    background-color: pink;
+    padding: 13px;
+    max-width: 200px;
+    position: absolute;
+    top: 30px;
+    bottom: 2px;
 }
