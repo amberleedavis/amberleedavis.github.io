@@ -36,6 +36,13 @@ td[colspan="3"]{
    background-color: #7fb9c2;
 }
 
+table {
+    -webkit-box-shadow: 10px 10px 3px 0px #00000095;
+    -moz-box-shadow: 10px 10px 3px 0px #00000095;
+    box-shadow: 10px 10px 3px 0px #00000095;
+  }
+
 #blue {
     background-color: #7fb9c2;
+    color: white;
 }
