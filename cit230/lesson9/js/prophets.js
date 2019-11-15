@@ -13,6 +13,7 @@ fetch(requestURL)
              //DEBUG
              console.log(prophet);
 
+                //add info/article
                 let article = document.createElement('article');
                 let h2 = document.createElement('h2');
 
