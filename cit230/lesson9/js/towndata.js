@@ -11,6 +11,13 @@ fetch(requestURL)
                     //fish haven
                     document.querySelector('#fishHavenYearFounded')
                     .textContent = town.yearFounded;
+
+                    document.querySelector('#fishHavenMotto')
+                    .textContent = town.motto;
+
+
+                    document.querySelector('#fishHavenImage')
+                    .setAttribute('src', 'images/' + town.photo);
                 }
                 
                 else if (town.name.toLowerCase() === 'preston'){
