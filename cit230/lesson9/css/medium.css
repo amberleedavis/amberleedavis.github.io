@@ -31,6 +31,11 @@ iframe{
 
 /* class selectors */
 
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .navigation li:first-child {
     display: none;
 }
