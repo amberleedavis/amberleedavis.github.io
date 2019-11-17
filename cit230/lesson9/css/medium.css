@@ -20,7 +20,6 @@ nav, tr, footer section {
 
 h1, h2{
     font-family: 'Yeseva One', cursive;
-
 }
 
 iframe{
@@ -31,11 +30,10 @@ iframe{
 
 /* class selectors */
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 .navigation li:first-child {
     display: none;
 }

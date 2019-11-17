@@ -1,9 +1,3 @@
-
-/* media query */
-@media only screen and (max-width: 32.5em)
-{
-}
-
 /* html selectors */
 
 article {
@@ -11,13 +5,11 @@ article {
     border-radius: 10px;
     background-color: #a6dbd7;
     text-align: center;
-    padding: 10px;
-    margin: 40px;
+    margin: 8em;
 }
 
 div{
     font-family: 'Raleway', sans-serif;
-
 }
 
 form{
@@ -25,18 +17,20 @@ form{
     margin: 0 auto;
 }
 
+img {
+    width: 20em;
+}
 
 label {
     display: inline-block;
     min-width: 100px;
     padding: 10px;
-
 }
 
 h2{
     font-size: 3em;
-
 }
+
 header{
   text-align: center;
 }
@@ -51,6 +45,11 @@ li a{
     text-decoration: none;
     color: white;
     
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 section, footer {
@@ -76,11 +75,6 @@ ul {
 .align-top{
     vertical-align: top;
     padding: 0;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr;
 }
 
 .hero {
