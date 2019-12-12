@@ -25,3 +25,4 @@ fetch(apiURL)
             .setAttribute('src', currentImage);
     }
 )
+

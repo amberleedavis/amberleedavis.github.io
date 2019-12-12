@@ -30,6 +30,11 @@ label {
 
 h2{
     font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
 }
 
 header{
@@ -66,6 +71,11 @@ section, footer {
     padding: 5px;
     margin: 4px;
 }
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
 
 table, th, td {
 border: 2px solid black;
@@ -107,7 +117,11 @@ ul {
 }
 
 .tornado {
-    width: 300px;
+    width: 28%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 /* id selectors */
@@ -122,6 +136,10 @@ ul {
     border: 0px;
 }
 
+#paragraph, p {
+    text-align: center;
+}
+
 #currentDate {
     text-align: center;
 }
@@ -132,8 +150,8 @@ ul {
     padding: 13px;
     max-width: 200px;
     position: absolute;
-    top: 60%;
-    right: 50%;
+    top: 55%;
+    right:30%;
     border: solid 1px navy;
     opacity: 70%;
 }
