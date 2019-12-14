@@ -95,6 +95,13 @@ ul {
     padding: 0;
 }
 
+.events{
+    background-color: #ff6b6b;
+    text-align: center;
+    margin: 0px;
+    padding: 8px;
+}
+
 .hero {
     width: 100%;
     height: 250px;

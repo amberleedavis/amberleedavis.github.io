@@ -12,10 +12,10 @@ function getFiveDayForecast(cityId){
     "Saturday"];
     
     var daysOfWeek = daysOfWeek[weekDayDate];
+
+     const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=0bb127cd265af9cd28fe92a7d0680e13&units=imperial';
     
-    const apiForecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=0bb127cd265af9cd28fe92a7d0680e13&units=imperial';
-    
-    fetch(apiForecastURL)
+    fetch(apiURL)
         .then(
             (response) => response.json()
         )
@@ -34,7 +34,13 @@ function getFiveDayForecast(cityId){
                             //Add temp
                             const tempElement = document.getElementById(`temp${counter}`);
                             tempElement.innerHTML = forecast.main.temp_max + '&deg';
-                            
+                           
+                            //date
+                            let nextDate = new Date(forecast.dt_txt);
+
+                             const dayElement = document.getElementById(`day${counter}`);
+                             dayElement.innerHTML = daysOfWeek[nextDate.getDay()];
+                             
                             //add image
                             const imageElement = document.getElementById(`img${counter}`);
                             imageElement.setAttribute('src', 'https://openweathermap.org/img/w/' +
@@ -46,21 +52,5 @@ function getFiveDayForecast(cityId){
                         }
                     }
                 )
-    
-            });
-    
-    
-    function getDateString(date) {
-    
-    let dateString =
-        //  find full year
-        date.getFullYear() + "-" +
-        //get month
-        (date.getMonth() + 1) + "-" +
-        //get day
-        date.getDate();
-        
-        return dateString;
-    }
-    };
-    
+            }
+        )};
