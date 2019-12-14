@@ -5,6 +5,9 @@
 }
 
 /* html selectors */
+footer {
+    font-family: 'Raleway', sans-serif;
+}
 
 li {
     float: left;
@@ -43,7 +46,7 @@ ul {
     background-color: #ff6b6b;
 }
 
-section, footer {
+section {
     font-family: 'Raleway', sans-serif;
     padding: 5px;
     margin: 4px;
