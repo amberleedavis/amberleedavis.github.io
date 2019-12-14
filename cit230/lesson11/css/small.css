@@ -1,17 +1,15 @@
 /* html selectors */
-
-article {
+footer {
     border: 3px solid #a6dbd7;
-    border-radius: 10px;
     background-color: #a6dbd7;
     text-align: center;
     margin: 2em;
 }
 
+
 div{
     font-family: 'Raleway', sans-serif;
 }
-
 
 form{
     max-width: 500px;
@@ -20,6 +18,7 @@ form{
 
 img {
     width: 20em;
+    text-align: center;
 }
 
 label {
@@ -30,11 +29,6 @@ label {
 
 h2{
     font-size: 3em;
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
 }
 
 header{
@@ -53,14 +47,6 @@ li a{
     
 }
 
-footer{
-    background-color: #a6dbd7;
-    text-align: center;
-    margin: 0px;
-    padding: 8px;
-}
-
-
 main {
     display: grid;
     grid-template-columns: 1fr;
@@ -72,10 +58,9 @@ section, footer {
     margin: 4px;
 }
 
-table.center {
-    margin-left:auto; 
-    margin-right:auto;
-  }
+section{
+    text-align: center;
+}
 
 table, th, td {
 border: 2px solid black;
@@ -89,23 +74,16 @@ ul {
     background-color: #ff6b6b;
 }
 
+
 /* class selectors */
 .align-top{
     vertical-align: top;
     padding: 0;
 }
 
-.events{
-    background-color: #ff6b6b;
-    text-align: center;
-    margin: 0px;
-    padding: 8px;
-}
-
 .hero {
     width: 100%;
     height: 250px;
-
 }
 
 .logo {
@@ -124,11 +102,7 @@ ul {
 }
 
 .tornado {
-    width: 28%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+    width: 300px;
 }
 
 /* id selectors */
@@ -138,18 +112,9 @@ ul {
 }
 
 #map {
-    width: 100%;
-    text-align: center;
-    border: 0px;
+    display: none;
 }
 
-#paragraph, p {
-    text-align: center;
-}
-
-#currentDate {
-    text-align: center;
-}
 
 #weatherSummary {
     color: white;
@@ -157,8 +122,8 @@ ul {
     padding: 13px;
     max-width: 200px;
     position: absolute;
-    top: 55%;
-    right:30%;
+    top: 54%;
+    right: 28%;;
     border: solid 1px navy;
     opacity: 70%;
 }

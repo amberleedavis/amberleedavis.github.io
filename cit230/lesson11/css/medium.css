@@ -3,7 +3,6 @@
 /* html selectors */
 a:hover {
 color: black;
-
 }
 
 .button, li {
@@ -16,11 +15,11 @@ nav, tr, footer section {
 }
 
 
-h1, h2{
+h1, h2 {
     font-family: 'Yeseva One', cursive;
 }
 
-iframe{
+iframe {
     width: 25%;
     height: 100%;
 }
@@ -32,6 +31,7 @@ iframe{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .navigation li:first-child {
     display: none;
 }
@@ -48,21 +48,8 @@ iframe{
 
     #map {
     display: block;
-}
-    #forecast {
-        display: block;
-    }
-
-    #weatherSummary {
-        color: white;
-        background-color: #ff6b6b;
-        padding: 13px;
-        max-width: 200px;
-        position: absolute;
-        top: 58%;
-        right: 36%;
-        border: solid 1px navy;
-        opacity: 70%;
+    text-align: center;
+    padding: 10px;
     }
 
 }
