@@ -10,11 +10,15 @@ fetch(apiWeatherURL)
         console.log(currentWeather);
 
         let currentTemp = currentWeather.main.temp; 
+        let currently = currentWeather.weather[0].main;
         let windSpeed = currentWeather.wind.speed;
-        let windChill;
+        let high = currentWeather.main.temp_max;
+        let humidity = currentWeather.main.humidity;
 
         let windChill = 35.74 + 0.6215 * currentTemp - 35.75 * (Math.pow(windSpeed , .16)) + 0.4275 
                 * currentTemp * (Math.pow(windSpeed , .16));
+    
+                windChill = windChill.toFixed(1);
 
         if (currentTemp < 50 && windSpeed > 3){
             windChill = Math.round(windChill);
@@ -26,10 +30,16 @@ fetch(apiWeatherURL)
         else {
             document.getElementById('windChill').innerHTML = windChill + '&deg';
         }
+
+    
        
-        document.getElementById("currentTemp").innerHTML = currentTemp + '&deg';
+        document.getElementById("currently").innerHTML = currently;
         document.getElementById("windSpeed").innerHTML = windSpeed + ' mph';
-        document.getElementById('windChill').innerHTML = windChill + '&deg';
+        document.getElementById('windChill').innerHTML = windChill + '&degf';
+        document.getElementById("high").innerHTML = high + '&degf';
+        document.getElementById("humidity").innerHTML = humidity + '%';
+
+
     }
 );
 

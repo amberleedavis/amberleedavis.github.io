@@ -1,11 +1,17 @@
 /* html selectors */
-
-article {
+footer {
     border: 3px solid #a6dbd7;
-    border-radius: 10px;
     background-color: #a6dbd7;
     text-align: center;
     margin: 2em;
+}
+
+article, #index {
+    background-color: #ff6b6b;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
 }
 
 div{
@@ -19,6 +25,7 @@ form{
 
 img {
     width: 20em;
+    text-align: center;
 }
 
 label {
@@ -27,8 +34,10 @@ label {
     padding: 10px;
 }
 
+
 h2{
     font-size: 3em;
+    text-align: center;
 }
 
 header{
@@ -58,6 +67,10 @@ section, footer {
     margin: 4px;
 }
 
+section{
+    text-align: center;
+}
+
 table, th, td {
 border: 2px solid black;
 }
@@ -77,10 +90,10 @@ ul {
     padding: 0;
 }
 
+
 .hero {
     width: 100%;
     height: 250px;
-
 }
 
 .logo {
@@ -115,10 +128,12 @@ ul {
 
 #weatherSummary {
     color: white;
-    background-color: pink;
+    background-color: #ff6b6b;
     padding: 13px;
     max-width: 200px;
     position: absolute;
-    top: 30px;
-    bottom: 2px;
+    top: 54%;
+    right: 28%;;
+    border: solid 1px navy;
+    opacity: 70%;
 }

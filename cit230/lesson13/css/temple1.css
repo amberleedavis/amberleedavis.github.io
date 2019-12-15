@@ -1,0 +1,163 @@
+li {
+    margin: 10px 5px;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 3px solid #eac9c1;
+    background-color: #eac9c1;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+  
+.responsive li {
+    display: block;
+}
+  #second-row {
+    background-color: #ebd8d0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+  }
+  
+  #forth-row {
+    background-color: #ebd8d0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+  }
+  
+  #sixth-row {
+    background-color: #ebd8d0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #d3ab9e;
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;
+    margin: 20px;
+  }
+  
+  .snowflake{
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+  }
+  
+  #content {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .leftcol, .rightcol {
+    width: 55%;
+    flex: 1 0 15em;
+    margin: .9em;
+  }
+  
+  .leftcol{
+    text-align: center;
+  }
+  
+  #first-row, #second-row{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+   }
+  
+  
+  #third-row {
+   width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 5 0 10em;
+  }
+  
+  #banner{
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  #list{
+    text-align: left;
+    list-style-type: none;
+  }
+  
+  nav ul {
+    display:flex;
+    padding-left: 6em;
+    margin: 0;
+    margin-top: -40px;
+  }
+  
+  .logo-box {
+    display:flex;
+  
+  }
+  
+  .logo {
+    margin-left: 8px;
+    width: 90px;
+  }
+  
+  #footer {
+   background-color:#466362;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #938581;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  .templemain {
+    width: 350px;
+  }
+  
+  .icon {
+    width: 30px;
+    position:relative;
+    left: 850px;
+    top: -35px;
+  }
+  
+  footer{
+    background-color: #d3ab9e;
+    text-align: center;
+    color: white;
+    padding: 8px;
+  
+  }
+  
+  
+  button{
+    color: white;
+    background-color: #466362;
+  }
+  
+  button:hover{
+    background-color: #C5D5E4;
+  }
+  
