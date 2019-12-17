@@ -1,3 +1,4 @@
+
 li {
     margin: 10px 5px;
     list-style: none;
@@ -6,6 +7,8 @@ li {
 li a{
     text-decoration: none;
     color: white;
+    padding: 35px;
+    
     
 }
 
@@ -13,8 +16,8 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 3px solid #eac9c1;
     background-color: #eac9c1;
+    font-family: 'Raleway', sans-serif;
 }
 
 .navigation li:first-child {
@@ -23,6 +26,18 @@ ul {
   
 .responsive li {
     display: block;
+}
+
+.reservationtitle{
+    text-align: center;
+}
+
+.receptionstitle{
+    color: #eac9c1;
+}
+
+#top{
+    margin-top: 10px;
 }
   #second-row {
     background-color: #ebd8d0;
@@ -82,10 +97,16 @@ ul {
   
   
   #third-row {
-   width: 80%;
-    margin: auto;
-    text-align: center;
-    padding: 5 0 10em;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  #forth-row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
   }
   
   #banner{
@@ -114,6 +135,7 @@ ul {
     margin-left: 8px;
     width: 90px;
   }
+
   
   #footer {
    background-color:#466362;

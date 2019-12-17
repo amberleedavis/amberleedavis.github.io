@@ -1,16 +1,212 @@
-[
-{
-    "templeName" : "Billings, Montana Temple",
-     "templeLocation" : "Billings, Montana",
-    "services" : [
-        "clothing rental available",
+{ "billings":
+    {
+    "name": "Billings",
+    "address": {
+        "streetAddress": "3100 Rim Point Dr",
+        "city": "Billings",
+        "state": "MT",
+        "postalCode": "59106-1386"
+    },
+
+    "services": [
+        "Clothing rental available",
         "No cafeteria available",
         "No patron housing available",
         "Distribution center nearby"
+    ],
+
+    "phoneNumber": "(1) 406-655-0607",
+
+    "dedicationDate": "20 November 1999",
+
+    "ordinanceSchedule": "6:00 AM - 7:00 PM Walk-ins and Appointments",
+
+    "sessionSchedule": [
+        "6:00 AM",
+        "7:00 AM",
+        "8:30 AM",
+        "10:00 AM",
+        "11:30 AM",
+        "1:00 PM",
+        "2:30 PM",
+        "4:00 PM",
+        "7:30 PM",
+        "7:00 PM"
+    ],
+
+    "templeClosure": [
+        "24 December 2019 - 25 December 2019",
+        "31 December 2019",
+        "1 January 2020",
+        "4 April 2020",
+        "4 July 2020",
+        "10 August 2020 - 31 August 2020",
+        "3 October 2020",
+        "25 November 2020 (Limited Hours) - 26 November 2020 (Closed)",
+        "24 December - 25 December 2020",
+        "31 December 2020"
     ]
-},
+    },
 
-{
+    "payson": 
+    {
+    "name": "Payson",
+    "address": {
+        "streetAddress": "1494 S 930 W",
+        "city": "Payson",
+        "state": "UT",
+        "postalCode": "84651"
+    },
 
+    "services": [
+        "No clothing rental available",
+        "No cafeteria available",
+        "Patron housing available",
+        "Distribution center nearby"
+    ],
+
+    "phoneNumber": "(1) 801-754-4949",
+
+    "dedicationDate": "7 June 2015",
+
+    "ordinanceSchedule": "7:00 AM - 7:40 PM Walk-ins and Appointments",
+
+    "sessionSchedule": [
+        "7:00 AM",
+        "7:40 AM",
+        "8:20 AM",
+        "9:00 AM",
+        "9:40 AM",
+        "10:20 AM",
+        "11:00 AM",
+        "11:40 AM",
+        "12:20 PM",
+        "1:00 PM",
+        "1:40 PM",
+        "2:20 PM",
+        "3:00 PM",
+        "3:40 PM",
+        "4:20 PM",
+        "5:00 PM",
+        "5:40 PM",
+        "6:20 PM",
+        "7:00 PM",
+        "7:40 PM"
+    ],
+
+    "templeClosure": [
+        "24 December 2019 - 25 December 2019",
+        "31 December 2019",
+        "1 January 2020",
+        "4 April 2020",
+        "6 April 2020 - 20 April 2020",
+        "4 July 2020",
+        "24 July 2020",
+        "3 October 2020",
+        "25 November 2020 (Limited Hours) - 26 November 2020 (Closed)",
+        "23 December 2020 (Limited Hours)",
+        " 24 December 2020 - 25 December 2020",
+        "31 December 2020"
+    ]
+    },
+
+    "provo": 
+    {
+    "name": "Provo City Center",
+    "address": {
+        "streetAddress": "50 South University Ave",
+        "city": "Provo",
+        "state": "UT",
+        "postalCode": "84601"
+    },
+
+    "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+    ],
+
+    "phoneNumber": "(1) 801-343-2700",
+
+    "dedicationDate": "20 March 2016",
+
+    "ordinanceSchedule": "6:00 AM - 8:00 PM Walk-ins Only",
+
+    "sessionSchedule": [
+        "6:00 AM",
+        "7:00 AM",
+        "8:00 AM",
+        "9:00 AM",
+        "10:00 AM",
+        "11:00 AM",
+        "12:00 PM",
+        "1:00 PM",
+        "2:00 PM",
+        "3:00 PM",
+        "4:00 PM",
+        "5:00 PM",
+        "6:00 PM",
+        "7:00 PM",
+        "8:00 PM"
+    ],
+
+    "templeClosure": [
+        "24 December 2019 - 25 December 2019",
+        "31 December 2019",
+        "1 January 2020",
+        "4 April 2020",
+        "22 June 2020 - 6 July 2020",
+        "24 July 2020",
+        "3 October 2020",
+        "25 November 2020 (Limited Hours) - 26 November 2020 (Closed)",
+        "24 December 2020 - 25 December 2020",
+        "31 December 2020"
+    ]
+    },
+
+    "snowflake": 
+    {
+    "name": "Snowflake",
+    "address": {
+        "streetAddress": "1875 W Canyon Dr",
+        "city": "Snowflake",
+        "state": "AZ",
+        "postalCode": "85937-6014"
+    },
+
+    "services": [
+        "No clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+    ],
+
+    "phoneNumber": "(1) 928-536-6626",
+
+    "dedicationDate": "3 March 2002",
+
+    "ordinanceSchedule": "8:00 AM - 6:00 PM Walk-ins Only",
+
+    "sessionSchedule": [
+        "8:00 AM",
+        "9:30 AM",
+        "11:00 AM",
+        "3:00 PM",
+        "4:30 PM",
+        "6:00 PM"
+    ],
+
+    "templeClosure": [
+        "24 December 2019 - 25 December 2019",
+        "31 December 2019",
+        "1 January 2020",
+        "23 March 2020 - 6 April 2020",
+        "4 July 2020",
+        "21 September 2020 - 5 October 2020",
+        "25 November 2020 - 26 November 2020",
+        "24 December 2020 - 25 December 2020",
+        "31 December 2020"
+    ]
+    }
 }
-]
