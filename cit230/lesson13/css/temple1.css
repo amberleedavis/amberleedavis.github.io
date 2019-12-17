@@ -8,9 +8,9 @@ li a{
     text-decoration: none;
     color: white;
     padding: 35px;
-    
-    
+      
 }
+
 
 ul {
     display: flex;
@@ -34,6 +34,11 @@ ul {
 
 .receptionstitle{
     color: #eac9c1;
+}
+
+iframe{
+ width: 400px;
+ height: 200px;
 }
 
 #top{
