@@ -1,0 +1,22 @@
+body {
+    background-color: #ad6a6c;
+    
+}
+
+
+p {
+    color: #e8d6cb;
+    width: 600px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+h1 {
+    color: #e8d6cb;
+    font-family: 'Public Sans', sans-serif;
+}
+
+img {
+    width: 300px;
+    border: #e8d6cb solid 3px;
+    padding: 9px;
+}
