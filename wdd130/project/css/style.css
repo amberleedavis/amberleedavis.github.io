@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Raleway&display=swap');
+
+body {
+    width: 960px;
+    background-color: #fff5e8;
+    color: #6a7a77;
+    margin: 0 auto;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Lora', serif;
+}
+
+p, li {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    background-color: #6a7a77;
+    color: #fff5e8;
+}
+
+section{
+    background-color: #4f3537;
+    color: #fff5e8;
+    padding: 10px;
+}
+
+.logo-image{ 
+    width: 10%;
+}
+.social-image {
+    width: 3%;
+}
