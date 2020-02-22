@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Raleway&display=swap');
 
+.banner-box img { 
+    width:100%; 
+    height: auto;
+ }
+
 body {
     width: 960px;
     background-color: #fff5e8;
@@ -37,6 +42,51 @@ header img {
     color: #4f3537;
 	margin: 0;
 }
+
+.home-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.home-headline-1 { 
+    grid-column: 1 / 4; 
+    grid-row: 1 / 2; 
+  }
+
+  .home-paragraph-1 {
+      grid-column: 1 / 4;
+      grid-row: 2 / 2 ;
+  }
+
+  .home-right-img {
+      grid-column: 4 / 4;
+      grid-row: 2 / 2;
+      width: 20px;
+  }
+
+  .home-headline-2 {
+      grid-column: 4 / 4;
+      grid-row: 3 / 4;
+
+  }
+
+  .home-paragraph-2{
+      grid-column: 4 / 4;
+      grid-row: 3 / 4;
+    
+  }
+
+  .home-left-img {
+      grid-column: 1 / 4;
+      grid-row: 3 / 4;
+  }
+
+  .home-paragraph-3{
+      grid-column: 2 / 4;
+      grid-row: 4 / 4;
+      width: 100%;
+  }
+
 
 .motto {
 	color: #6a7a77;

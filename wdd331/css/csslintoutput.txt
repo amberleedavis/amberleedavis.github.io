@@ -1,0 +1,57 @@
+
+
+csslint: There are 11 problems in /Users/amberdavis/Documents/amberleedavis.github.io/wdd331/css/cssreview.css.
+
+cssreview.css
+1: warning at line 3, col 1
+@import prevents parallel downloads, use <link> instead.
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+cssreview.css
+2: warning at line 68, col 1
+Rule doesn't have all its properties in alphabetical order.
+article {
+
+cssreview.css
+3: warning at line 73, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: 10px;
+
+cssreview.css
+4: warning at line 81, col 1
+Rule doesn't have all its properties in alphabetical order.
+header {
+
+cssreview.css
+5: warning at line 85, col 5
+Using height with padding can sometimes make elements larger than you expect.
+    padding: 20px;
+
+cssreview.css
+6: warning at line 93, col 1
+Heading (h1) has already been defined.
+h1, nav {
+
+cssreview.css
+7: warning at line 125, col 5
+Rule doesn't have all its properties in alphabetical order.
+    header {
+
+cssreview.css
+8: warning at line 133, col 9
+Using height with padding-top can sometimes make elements larger than you expect.
+        padding-top: 20px;
+
+cssreview.css
+9: warning at line 136, col 5
+Rule doesn't have all its properties in alphabetical order.
+    article {
+
+cssreview.css
+10: warning at line 140, col 9
+Using width with padding can sometimes make elements larger than you expect.
+        padding: 10px;
+
+cssreview.css
+11: warning
+You have 2 h1s defined in this stylesheet.
