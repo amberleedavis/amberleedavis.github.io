@@ -94,15 +94,50 @@ header img {
 	letter-spacing: 1.2pt;
 }
 
-p, li {
-    font-family: 'Raleway', sans-serif;
-}
 
 nav {
     background-color: #6a7a77;
     color: #fff5e8;
     padding: .4px;
 }
+
+#mainMenu {
+margin: 10px;
+width: 900px;
+background-color: #6a7a77;
+
+}
+
+#mainMenu li {
+display: block;
+width: 120px;
+float: left;
+margin-left: 2px;
+
+
+
+}
+
+#mainMenu a {
+    display:block;
+    padding: 3px;
+    text-decoration: none;
+    color: #4f3537;
+}
+
+#mainMenu a:hover{
+    color: white;
+}
+
+
+p, li {
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+list-style: none;
+}
+
 
 section{
     background-color: #4f3537;
