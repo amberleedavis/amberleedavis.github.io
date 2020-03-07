@@ -136,6 +136,11 @@ margin-left: 2px;
     color: white;
 }
 
+.plainBackground{
+    background-color: #fff5e8;
+    color: #4f3537;
+}
+
 
 p, li {
     font-family: 'Raleway', sans-serif;

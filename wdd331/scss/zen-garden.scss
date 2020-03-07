@@ -56,3 +56,16 @@ p, a{
     padding-top: 3px;
     padding-bottom: 3px;
 }
+
+
+@media only screen and (min-width: 200px) {
+    
+    #zen-explanation{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-start: 2;
+    }
+
+
+
+}
