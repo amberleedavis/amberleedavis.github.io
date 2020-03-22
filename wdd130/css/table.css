@@ -2,6 +2,10 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
+.gray{
+    background-color: lightgray;
+}
+
 table, tr, th, td {
     border: solid lightgray 1px;
     border-collapse: collapse;
