@@ -1,0 +1,32 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+table, tr, th, td {
+    border: solid lightgray 1px;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+}
+
+th[colspan="3"] {
+    background-color: black;
+    color: yellow;
+
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+
+table {
+    -webkit-box-shadow: 10px 10px 3px 0px #00000095;
+    -moz-box-shadow: 10px 10px 3px 0px #00000095;
+    box-shadow: 10px 10px 3px 0px #00000095;
+  }
+
