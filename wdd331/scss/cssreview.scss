@@ -2,27 +2,47 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
+/* SCSS */
+$nav-color: #6495ED;
+$b-color: #FAEBD7;
+$link-color: #DEB887;
+
+/* mixin */
+@mixin article{
+    background-color: white;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 15%;
+    padding: 10px;
+    box-shadow: 3px 3px 5px gray;
+    align-content: center;
+}
+
+/* nesting */
+
+header{
+    color: $b-color;
+
+    a:link{
+        text-decoration: none;
+    }
+
+    a:visited{
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: white;
+        text-decoration: none;
+    }
+
+    a:active{
+        color: $link-color;
+        text-decoration: none;
+    }
+}
+
 /* links */
-
-header a:link {
-    color:#FAEBD7;
-    text-decoration: none;
-}
-
-header a:visited {
-    color:#FAEBD7;
-    text-decoration: none;
-}
-
-header a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-header a:active {
-    color: #DEB887;
-    text-decoration: none;
-}
 
 h2 a:link{ 
     color: black;
@@ -35,51 +55,45 @@ h2 a:visited{
 }
 
 h2 a:active{
-    color: #DEB887;
+    color: $link-color;
     text-decoration: none;
 }
 
 h2 a:hover{
-    color: #6495ED;
+    color: $nav-color;
     text-decoration: underline;
 }
 
 p a:link {
-    color: #6495ED;
+    color: $nav-color;
     text-decoration: none;
  }
 
  p a:visited {
-    color: #6495ED;
+    color: $nav-color;
     text-decoration: none;
  }
 
  p a:active {
-     color: #DEB887;
+     color: $link-color;
      text-decoration: none;
  }
 
  p a:hover {
-     color:#6495ED;
+     color:$nav-color;
      text-decoration: underline;
  }
 
  /* html indicators */
 article {
-    background-color: white;
-    width: 70%;
-    margin-top: 20px;
-    margin-left: 15%;
-    padding: 10px;
-    box-shadow: 3px 3px 5px gray;
-    align-content: center;
+   @include article;
 }
 body {
     font-family: 'Helvetica', Arial, sans-serif;
 }
 
 header {
-    background-color: #6495ED;
+    background-color: $nav-color;
     text-align: right;
     height: 100%;
     padding: 20px;
@@ -95,7 +109,7 @@ h1, nav {
 }
 
 html, body{
-    background-color: #FAEBD7;
+    background-color: $b-color;
     margin: 0;
     padding: 0;
 }
@@ -110,7 +124,7 @@ li {
 }
 
 main {
-    background-color: #FAEBD7;
+    background-color: $b-color;
 }
 
 /* class indicators */
