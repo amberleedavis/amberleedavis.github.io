@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Slabo+27px&display=swap");
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #B1CDD1;
+  font-family: "Slabo 27px", sans-serif;
+  font-size: 1.1em;
+  background: #13111E url(http://ampudia.me/svg/zg-bg.svg) no-repeat bottom;
+  background-size: 100% auto;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  padding: 0 1em;
+  font-family: "Abril Fatface", serif;
+  color: #FFFFFF;
+}
+
+@-webkit-keyframes moon {
+  to {
+    left: 120%;
+    top: 0px;
+  }
+}
+
+@keyframes moon {
+  to {
+    left: 120%;
+    top: 0px;
+  }
+}
+
+body::after {
+  display: block;
+  content: '';
+  background: url(https://upload.wikimedia.org/wikipedia/commons/e/ee/Weather_icon_-_full_moon.svg) top left;
+  background-size: cover;
+  -webkit-animation-name: moon;
+          animation-name: moon;
+  -webkit-animation-duration: 360s;
+          animation-duration: 360s;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: -100px;
+}
+
+p {
+  padding: 0 1em;
+}
+
+@-webkit-keyframes title {
+  from {
+    opacity: 0;
+    margin-left: -30px;
+  }
+  to {
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+
+@keyframes title {
+  from {
+    opacity: 0;
+    margin-left: -30px;
+  }
+  to {
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+
+h1 {
+  -webkit-animation: title 1s;
+          animation: title 1s;
+  font-size: 2.6em;
+}
+
+@-webkit-keyframes subtitle {
+  from {
+    opacity: 0;
+    margin-right: -30px;
+  }
+  to {
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+
+@keyframes subtitle {
+  from {
+    opacity: 0;
+    margin-right: -30px;
+  }
+  to {
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+
+h2 {
+  opacity: 1;
+  -webkit-animation-name: subtitle;
+          animation-name: subtitle;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+div {
+  margin: 1.2em 0;
+}
+
+a {
+  color: #547884;
+  position: relative;
+  text-decoration: none;
+}
+
+a::after {
+  content: "";
+  background: #a28351;
+  display: block;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: -0.3em;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+a:hover::after {
+  opacity: 1;
+  bottom: 0;
+}
+
+header,
+.summary {
+  text-align: center;
+}
+
+.requirements p:last-child {
+  font-size: 0.6em;
+}
+
+.requirements p:last-child a {
+  color: #B1CDD1;
+}
+
+.explanation,
+.benefits {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#13111E), to(#1A2842));
+  background-image: linear-gradient(to bottom right, #13111E, #1A2842);
+  padding: 1.5em 0;
+  border-top: 1px solid #a28351;
+  border-bottom: 1px solid #a28351;
+}
+
+aside {
+  text-align: center;
+}
+
+aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 1.5em 0;
+}
+
+aside ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.design-name {
+  display: block;
+}
+
+.design-selection {
+  padding: 0.5em;
+}
+
+.design-selection ul {
+  display: -ms-grid;
+  display: grid;
+  text-align: left;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 1em;
+  list-style-type: none;
+}
+
+.design-selection .select {
+  padding: 0;
+  margin: 0 0 0.3em;
+}
+
+.design-selection li {
+  color: #2E5170;
+  font-size: 12px;
+}
+
+.design-selection ul li a:first-child {
+  font-size: 1.4em;
+}
+
+.design-selection ul li :nth-child(2) {
+  color: #2E5170;
+  font-size: 12px;
+}
+
+.design-selection ul li :nth-child(2):hover {
+  color: #FFFFFF;
+}
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
+  bottom: 0;
+  background: #334A6D;
+  margin: 2em 0;
+  border-top: 1px solid #13111E;
+  border-bottom: 1px solid #13111E;
+}
+
+footer a {
+  padding: 1em;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+
+footer a:hover {
+  background: #FFFFFF;
+  text-decoration: none;
+  color: #13111E;
+}
+
+@media all and (min-width: 50em) {
+  .page-wrapper {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
+  .intro {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (20%)[5];
+        grid-template-columns: repeat(5, 20%);
+  }
+  header {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-column: 1/6;
+  }
+  .summary {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-column: 2/5;
+    text-align: center;
+  }
+  /* The Road to Enlightenment */
+  .preamble {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+  }
+  .main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (20%)[5];
+        grid-template-columns: repeat(5, 20%);
+    margin-top: -350px;
+  }
+  /* So What is This About? */
+  .explanation {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 3;
+    grid-column: 3/6;
+    background-color: #334A6D;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-left: 1px solid #a28351;
+    border-bottom: none;
+  }
+  .preamble::after {
+    content: '';
+    display: block;
+    margin: 1em 1em 0 1em;
+    width: 95%;
+    height: 20em;
+    background: url(http://ampudia.me/images/fox.jpg) no-repeat;
+    background-size: contain;
+  }
+  /* Participation */
+  .participation {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    border-right: 1px solid #a28351;
+  }
+  .participation::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 1em;
+    margin: 1em 1em 0 1em;
+    width: 35%;
+    height: 20em;
+    background: url(http://ampudia.me/images/deer.jpg) no-repeat right;
+    background-size: contain;
+    margin-top: -340px;
+  }
+  /* Benefits */
+  .benefits {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-column: 2/5;
+    background-color: #334A6D;
+    text-align: center;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#547884), to(#2E5170));
+    background-image: linear-gradient(to bottom right, #547884, #2E5170);
+    border-radius: 10px;
+    padding: 0;
+  }
+  /* Requirements */
+  .requirements {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-column: 1/6;
+  }
+  /* Select a Design */
+  .design-selection {
+    position: absolute;
+    top: 23em;
+    right: 1.2em;
+    font-size: 0.9em;
+    border: 1px solid #a28351;
+  }
+  .design-selection ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .design-selection .select {
+    padding: 0;
+    margin: 0 0 0.3em;
+  }
+  footer {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-column: 1/6;
+    margin: auto;
+    border: 1px solid #13111E;
+  }
+}
+/*# sourceMappingURL=final-zengarden.css.map */

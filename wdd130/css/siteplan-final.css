@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Raleway&display=swap');
+
+body{
+    background-color: #fff5e8;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    color: #ff6442;
+}
+
+p, .signature{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+nav {
+    background-color: #ff96ed;
+}
+
+li {
+    padding: 2px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff5e8;
+    list-style: none;
+}
+
+li a:link {
+    color: #fff5e8;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #fff5e8;
+    text-decoration: underline;
+}
+
+li a:active {
+    color: #ff6442;
+    text-decoration: none;
+}
+
+li a:visited {
+    color: #ff6442;
+    text-decoration: none;
+}
+
+footer{
+    font-family: 'Raleway', sans-serif;
+}
