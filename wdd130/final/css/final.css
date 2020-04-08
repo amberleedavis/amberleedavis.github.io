@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Raleway&display=swap');
+/* main  things */
+body {
+    width: 960px;
+    background-color: #fcf8ef;
+    margin: 0 auto;
+    padding: 0;
+	font-size: 16px;
+}
+
+footer{
+    padding: 10px;
+    margin: auto;
+    background-color: #ff96ed;
+    color: #fcf8ef;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    color: #ff6442;
+}
+
+header {
+	background-color: #fcf8ef;
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header img {
+	width: 125px;
+	height: auto;
+}
+
+.heading {
+	display: flex;
+    flex-direction: column;
+    background-color: #fcf8ef;
+}
+
+.heading h1 {
+	font-size: 2rem;
+    color: #ff6442;
+	margin: 0;
+}
+
+
+
+
+.motto {
+	color:#ff6442;
+	font-size: 1rem;
+	letter-spacing: 1.2pt;
+}
+
+
+nav {
+    background-color: #ff96ed;
+    padding: .4px;
+    height: 100%;
+}
+
+#mainMenu {
+margin: 10px;
+width: 100%;
+background-color: #ff96ed;
+
+}
+
+#mainMenu li {
+display: block;
+width: 120px;
+text-align: center;
+float: left;
+margin-left: -30px;
+}
+
+#mainMenu a {
+    display:block;
+    text-decoration: none;
+    color: #ff96ed;
+}
+
+#mainMenu a:hover{
+    color: #ff6442;
+}
+
+
+
+p, li {
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+list-style: none;
+}
+
+
+
+
+.logo-image{ 
+    width: 15%;
+    margin: 0 auto;
+}
+
+/*home page */
+
+.banner-box img { 
+    width:100%; 
+    height: auto;
+ }
+
+
+.social-image {
+    width: 2%;
+    float: right;
+    padding: 3px;
+
+}
+
