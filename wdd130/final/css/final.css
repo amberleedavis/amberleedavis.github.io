@@ -13,6 +13,8 @@ footer{
     margin: auto;
     background-color: #ff96ed;
     color: #fcf8ef;
+    font-family: 'Raleway', sans-serif;
+    
 }
 
 h1, h2, h3, h4 {
@@ -23,9 +25,8 @@ h1, h2, h3, h4 {
 header {
 	background-color: #fcf8ef;
 	padding: 5px 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    margin-left: 51px;
+    margin-bottom: 10px;
 }
 
 header img {
@@ -46,8 +47,6 @@ header img {
 }
 
 
-
-
 .motto {
 	color:#ff6442;
 	font-size: 1rem;
@@ -62,7 +61,7 @@ nav {
 }
 
 #mainMenu {
-margin: 10px;
+margin: 1px;
 width: 100%;
 background-color: #ff96ed;
 
@@ -94,14 +93,6 @@ p, li {
 
 ul {
 list-style: none;
-}
-
-
-
-
-.logo-image{ 
-    width: 15%;
-    margin: 0 auto;
 }
 
 /*home page */
