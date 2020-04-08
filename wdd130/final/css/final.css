@@ -11,7 +11,7 @@ body {
 footer{
     padding: 10px;
     margin: auto;
-    background-color: #ff96ed;
+    background-color: #ff6542a2;
     color: #fcf8ef;
     font-family: 'Raleway', sans-serif;
     
@@ -85,8 +85,13 @@ margin-left: -30px;
     color: #ff6442;
 }
 
+footer a {
+    color: #fcf8ef;
+}
 
-
+.booklet-link a {  
+    color: #fcf8ef
+}
 p, li {
     font-family: 'Raleway', sans-serif;
 }
@@ -110,3 +115,69 @@ list-style: none;
 
 }
 
+/* photo gallery */
+
+.photogallery{
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
+
+.gallerybio{
+    width: 94%;
+}
+
+p {
+    font-size: 1.3em;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: rgba(255, 150, 237, 0.521);
+    color: #fcf8ef
+}
+
+
+/* design page */
+
+.design-images{
+    width: 400px;
+    position: relative;
+    left: 500px;
+    bottom: 150px;
+}
+
+.design-headline-1{
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.design-headline-2{
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.design-headline-3{
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.design-paragraph-1{
+    width: 30%;
+    font-size: 1em;
+    margin-left: 45px;
+}
+
+.design-paragraph-2{
+    width: 30%;
+    font-size: 1em;
+    margin-left: 45px;
+}
+
+.design-paragraph-3{
+    width: 30%;
+    font-size: 1em;
+    margin-left: 45px;
+}
+
+
+
+ 
