@@ -25,10 +25,35 @@
                     <li> <a href="index.html">Home</a></li>
                     <li><a href="photo-gallery.html">Photography</a></li>
                     <li><a href="design.html">Design</a></li>
-                    <li><a href="media.html">Social Media</a></li>
+                    <li><a href="contact.html">Contact</a></li>
         
                 </ul>
             </nav>
+
+
+            <div id="feedback"></div>
+            <h2 class="social-media-heading">Send a Message to me!</h1>
+
+<form action="/my-handling-form-page" method="post">
+    <ul>
+     <li>
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="user_name">
+     </li>
+     <li>
+       <label for="mail">E-mail:</label>
+       <input type="email" id="mail" name="user_mail">
+     </li>
+     <li>
+       <label for="msg">Message:</label>
+       <textarea id="msg" name="user_message"></textarea>
+     </li>
+     <li class="button">
+        <button type="submit">Contact</button>
+      </li>
+    </ul>
+   </form>
+<script src="forms.js"></script>
     
 </body>
 </html>
